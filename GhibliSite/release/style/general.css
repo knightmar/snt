@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Hey_Comic';
+    src: url('fonts/Hey_Comic.ttf');
+}
+
+* {
+    font-family: Hey_Comic, sans-serif;
+
+}
+
+a:hover{
+    color: orange;
+    border-bottom: 2px solid gold;
+}

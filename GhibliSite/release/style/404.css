@@ -8,8 +8,11 @@
 }
 body{
     height: 100vh;
-    background: -webkit-repeating-linear-gradient(-45deg, #71b7e6, #69a6ce, #b98acc, #ee8176, #b98acc, #69a6ce, #9b59b6);
-    background-size: 400%;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0248%2F9110%2Fproducts%2Ftotoro_sur_son_arbre.jpg%3Fv%3D1488814825&f=1&nofb=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background: -webkit-repeating-linear-gradient(-45deg, #71b7e6, #69a6ce, #b98acc, #ee8176, #b98acc, #69a6ce, #9b59b6);*/
+    /*background-size: 400%;*/
 }
 #error-page{
     position: absolute;
@@ -22,6 +25,7 @@ body{
     justify-content: center;
     background: #fff;
     box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+    opacity: 0.7;
 }
 #error-page .content{
     max-width: 600px;
@@ -38,11 +42,9 @@ body{
     top: 0;
     left: 0;
     right: 0;
-    background: -webkit-repeating-linear-gradient(-45deg, #71b7e6, #69a6ce, #b98acc, #ee8176, #b98acc, #69a6ce, #9b59b6);
-    background-size: 400%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 1px 1px 2px rgba(255,255,255,0.25);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.25);
     animation: animate 10s ease-in-out infinite;
 }
 @keyframes animate {
@@ -93,17 +95,18 @@ body{
     display: inline-block;
     margin: 0 10px;
     text-decoration: none;
-    border: 2px solid #69a6ce;
-    color: #69a6ce;
+    border: 2px solid #009aff;
+    color: #009aff;
     font-weight: 500;
     padding: 10px 25px;
     border-radius: 25px;
     text-transform: uppercase;
     transition: all 0.3s ease;
     transform: scale(1);
+    opacity: 1;
 }
 .content .btns a:hover{
-    background: #69a6ce;
+    background: #009aff;
     color: #fff;
     transform: scale(1.2);
 }
