@@ -13,7 +13,7 @@
 
 <img src="/site/images/miyazaki.png" alt="Miyazaki" id="img_miyazaki">
 
-<section id="desc">
+<section id="desc_miyazaki">
     <p>Hayao Miyazaki (宮崎 駿, Miyazaki Hayao), né le 5 janvier 1941 à Tokyo, est un dessinateur, réalisateur et
         producteur de films d'animation japonais, cofondateur du Studio Ghibli avec Isao Takahata.
 
