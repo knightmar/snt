@@ -1,28 +1,65 @@
-.content {
-    position: relative;
-    left: 200px;
-    top: 60px;
-    width: 80%;
 
-}
 
-.title {
-    text-decoration: underline;
-    text-align: center;
-    position: relative;
-    font-size: 45px;
-    left: 120px;
-    top: 20px;
-    max-width: 70%;
-}
+
 
 #img_logo_totoro {
     position: relative;
     left: 40%;
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    text-align: center;
 }
 
-#img_logo_totoro_desc{
+#img_totoro {
+    max-width: 10%;
+    height: auto;
     position: relative;
-    left: 21%;
-    top: 10px;
+    top: -100px;
+    right: -60%;
+}
+
+#img_logo_chihiro{
+    width: 250px;
+    height: auto;
+
+}
+#div_logo_chihiro{
+    position: relative;
+    left: 40%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 20%;
+
+}
+#img_chihiro{
+    width: 250px;
+    height: auto;
+    position: relative;
+    left: 50%;
+    top: -70px;
+
+}
+#img_logo_hauru{
+    width: 250px;
+    height: auto;
+
+}
+#div_logo_hauru{
+    position: relative;
+    left: 40%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 20%;
+
+}
+#img_hauru{
+    width: 250px;
+    height: auto;
+    position: relative;
+    left: 50%;
+    top: -50px;
+
 }

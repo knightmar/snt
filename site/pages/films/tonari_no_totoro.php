@@ -10,13 +10,20 @@
 
 </head>
 <body>
-<?php include '../utils/menu.html'  ?>
-
+<?php include '../utils/menu.html' ?>
 <h1 class="title">Mon voisin Totoro (1988)</h1>
-<img id="img_logo_totoro" src="/site/images/tonari_no_totoro.jpg" alt="Logo officiel">
-<i id="img_logo_totoro_desc">
-    Logo officiel Tonari no totoro
-</i>
+
+
+<div id="img_logo_totoro">
+    <img src="/site/images/tonari_no_totoro.jpg" alt="Logo officiel">
+    <i>
+        Logo officiel Tonari no totoro
+    </i>
+</div>
+<img src="/site/images/totoro.png" alt="Totoro" id="img_totoro">
+
+
+
 <section class="content">
     <h3>Histoire :</h3>
     <p>Mon voisin Totoro (となりのトトロ, Tonari no Totoro) est un film d'animation japonais réalisé par <a

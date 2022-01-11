@@ -12,3 +12,34 @@ a:hover{
     color: orange;
     border-bottom: 2px solid gold;
 }
+
+.title {
+    text-decoration: underline;
+    text-align: center;
+    position: relative;
+    font-size: 45px;
+    left: 120px;
+    top: 20px;
+    max-width: 70%;
+}
+.content {
+    position: relative;
+    left: 200px;
+    top: -100px;
+    width: 80%;
+
+}
+
+#desc{
+    position: relative;
+    top: -250px;
+    left: 200px;
+    width: 60%;
+}
+
+#img_miyazaki{
+    width: 200px;
+    height: auto;
+    position: relative;
+    left: 80%;
+}

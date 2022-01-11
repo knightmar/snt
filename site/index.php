@@ -15,7 +15,7 @@
 <h1 class="title">Blog non officiel des Studio Ghibli</h1>
 
 
-<img src="images/Logo_Ghibli.svg" alt="Logo du studio Ghibli" id="logo_ghibli">
+<img src="/site/images/Logo_Ghibli.svg" alt="Logo du studio Ghibli" id="logo_ghibli">
 
 
 <?php include 'pages/utils/menu.html' ?>
