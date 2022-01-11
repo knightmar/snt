@@ -6,7 +6,7 @@
 .content {
     position: relative;
     left: 200px;
-    top: 60px;
+    top: 150px;
     width: 80%;
 
 }
@@ -14,11 +14,10 @@
 .title {
     text-decoration: underline;
     text-align: center;
-    position: relative;
+    position: absolute;
     font-size: 45px;
-    left: 120px;
+    left: 250px;
     top: 20px;
-    max-width: 70%;
 }
 
 #logo_ghibli {
