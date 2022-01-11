@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <link href="style/Main.css" rel="stylesheet" type="text/css">
-    <link href="style/general.css" rel="stylesheet" type="text/css">
-    <link href="style/menu.css" rel="stylesheet" type="text/css">
+    <link href="/site/style/Main.css" rel="stylesheet" type="text/css">
+    <link href="/site/style/general.css" rel="stylesheet" type="text/css">
+    <link href="/site/style/menu.css" rel="stylesheet" type="text/css">
 
 
     <meta charset="UTF-8">
@@ -15,10 +15,10 @@
 <h1 class="title">Blog non officiel des Studio Ghibli</h1>
 
 
-<img src="images/Logo_Ghibli.svg" alt="Logo du studio Ghibli" id="logo_ghibli">
+<img src="/site/images/Logo_Ghibli.svg" alt="Logo du studio Ghibli" id="logo_ghibli">
 
 
-<?php include 'pages/utils/menu.html' ?>
+<?php include './site/pages/utils/menu.html' ?>
 
 
 
